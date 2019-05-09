@@ -1,0 +1,38 @@
+{
+  "name": "hackernews",
+  "version": "1.0.0",
+  "description": "Road to learn React by Robin Wieruch",
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "0.18.0",
+    "classnames": "2.2.6",
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.12.1",
+    "lodash": "4.17.11",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-addons-test-utils": "15.6.2",
+    "react-dom": "16.8.3",
+    "react-scripts": "2.1.8",
+    "react-test-renderer": "16.8.6"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
